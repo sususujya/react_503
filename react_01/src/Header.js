@@ -1,10 +1,11 @@
 function Header() {
 
-  const leevar = <h2>Hello World!</h2>
+  const leevar = <h2>Hello World! TGIM</h2>
   return (
     <>
+      <i className="xi-heart"></i>
       {leevar}
-      <div>My first react Ha..HA....ha......HAH!!!</div>
+      <div>React beginner</div>
     </>
   );
 }
