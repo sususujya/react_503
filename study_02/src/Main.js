@@ -3,7 +3,9 @@ import MainVisual from "./MainVisual"
 export default function Main() {
     return (
         <>
-            <MainVisual />
+            <main className="mainVisual">
+                <MainVisual />
+            </main>
         </>
     )
 }

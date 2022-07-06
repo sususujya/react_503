@@ -40,3 +40,42 @@
 .top_banner i.on {
   transform: rotate(180deg) translateX(100%);
 }
+
+.mainVisual figure {
+  height: 600px;
+  position: relative;
+}
+
+.mainVisual .item01 {
+  background: url(../img/mainvisual01.jpg) no-repeat center center/cover;
+}
+
+.mainVisual .item02 {
+  background: url(../img/mainvisual02.jpg) no-repeat center center/cover;
+}
+
+.mainVisual .item03 {
+  background: url(../img/mainvisual03.jpg) no-repeat center center/cover;
+}
+
+.mainVisual .inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  color: #fff;
+  text-shadow: 0 0 3px #232323;
+}
+
+.mainVisual .inner h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+
+.mainVisual .inner p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4;
+}
