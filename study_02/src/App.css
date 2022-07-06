@@ -1,0 +1,30 @@
+.Wrap {}
+
+.top_banner {
+  background: #f7f7f7;
+  position: relative;
+}
+
+.top_banner .container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+  transition: height 0.3s;
+  overflow: hidden;
+}
+
+.top_banner .container.on {
+  height: 0
+}
+
+.top_banner i {
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  margin: 0 0 0 600px;
+  transform: translateX(-100%);
+}
+
+.top_banner i.on {
+  transform: rotate(180deg) translateX(100%);
+}
