@@ -1,12 +1,12 @@
 import MainVisual from "./MainVisual"
-import ToggleClass from "./toggleClass"
+import SetCount from "./SetCount"
 
 export default function Main() {
     return (
         <>
             <main className="mainVisual">
                 <MainVisual />
-                <ToggleClass />
+                <SetCount />
             </main>
         </>
     )
