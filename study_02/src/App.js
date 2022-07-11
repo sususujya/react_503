@@ -2,14 +2,15 @@ import './App.css';
 import Header from './Header';
 import Footer from './Footer';
 import Main from './Main';
+import Wrap from './Wrap';
 
 function App() {
   return (
-    <div className="Wrap">
+    <Wrap>
       <Header />
       <Main></Main>
       <Footer />
-    </div>
+    </Wrap>
   );
 }
 
