@@ -6,20 +6,20 @@ const Map = () => {
         { id: 4, name: "LouisTomlinson", title: "Best Perfomer", content: "Everybody love his album", src: './img/lesedilarona04.jpg' },
     ]
     return (
-        <>
+        <section className="customer">
             <ul>
                 {
                     // DATA.map(elm => <li>{elm.name} is {elm.title} and {elm.content}</li>)
                     DATA.map((elm, idx) =>
                         <li key={elm.id}>
-                            <img src={elm.src} alt="WOW" />
-                            {elm.name} is {elm.title} and '{elm.content}'
+                            <div className="box"><img src={elm.src} alt="WOW" /></div>
+                            <strong>{elm.name} is {elm.title} and '{elm.content}'</strong>
                         </li>
                     )
                     // ^^^ 보통은 안 쓴다
                 }
             </ul>
-        </>
+        </section>
     )
 }
 

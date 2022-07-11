@@ -1,6 +1,7 @@
 const Wrap = ({ children }) => {
     return (
-        <div style={{ border: "1px solid #f00", padding: 100, borderLeft: '5px solid #f0f' }}>
+        // <div style={{ border: "1px solid #f00", padding: 100, borderLeft: '5px solid #f0f' }}>
+        <div>
             {children}
         </div>
     )
