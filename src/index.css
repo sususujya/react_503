@@ -1,0 +1,59 @@
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.Wrapper {
+    background: #fafafa;
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid #ddd;
+}
+
+.TodoList {
+    background: #f7f7f7;
+    margin: 0 0 30px 0;
+}
+
+.TodoList li {
+    border-bottom: 1px solid #eee;
+    padding: 10px 10px;
+}
+
+.closeBtn {
+    float: right;
+    font-size: 13px;
+    padding: 3px;
+    background: #333;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.TodoListWrap h2 {
+    padding: 30px 10px;
+}
+
+.TodoListWrap hr {
+    margin: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px dotted #333;
+}
+
+.CreateTodoList button {
+    padding: 10px 20px;
+    background: #f00;
+    color: #fff;
+    float: right;
+    outline: none;
+    border: 0 none;
+}
